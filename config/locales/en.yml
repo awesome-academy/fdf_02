@@ -30,4 +30,33 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  base_title: Foods & Drink
+  please_login: Plesase Login !!!
+  home: Home
+  log_in: Log In
+  cart: Cart
+  sign_up : Sign Up
+  contact : Contact
+  welcome: Welcome to the Foods and Drinks
+  layouts:
+    header:
+      desc: Order Foods And Drinks
+    footer:
+      copy_right: Copyright &copy; 2019
+      template_by: Template by
+      os_template: OS Templates
+  static_pages:
+    home:
+      title: Home Pages
+      desc: Order Foods And Drinks
+      more_desc: Food Delivery is the best way to find local restaurants that
+       deliver to you or quickly order food online . Whether looking for
+       breakfast, lunch, dinner or late night snack, we have it all.
+  users:
+    new:
+      confirm: Confirmation
+      title: Sign Up
+      create_button: Create my account
+  shared:
+    error_messages:
+      form_contain: The form contains
