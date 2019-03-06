@@ -1,0 +1,12 @@
+models:
+  user:
+    max_length_name: 150
+    max_length_email : 70
+    min_length_pass : 6
+  suggest:
+    max_length : 20
+    max_length_desc : 200
+  category :
+    max_length_name : 20
+  product :
+    max_length : 50
