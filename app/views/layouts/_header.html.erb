@@ -1,0 +1,19 @@
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><%= link_to ( t "base_title" ), root_path %></h1>
+      <h2><%= t(".desc") %></h2>
+    </div>
+    <form action="#" method="post">
+    </form>
+    <nav>
+      <ul>
+        <li><%= link_to ( t "home" ), root_path %></li>
+        <li><%= link_to ( t "log_in" ), "#" %></li>
+        <li><%= link_to ( t "sign_up" ), signup_path %></li>
+        <li><%= link_to ( t "cart" ), "#" %></li>
+        <li class="last" ><%= link_to ( t "contact" ), contact_path %></li>
+      </ul>
+    </nav>
+  </header>
+</div>

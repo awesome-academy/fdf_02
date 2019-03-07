@@ -1,0 +1,31 @@
+<% provide :title, t(".title") %>
+<h1><%= t(".title")%></h1>
+<section class="main-container col1-layout">
+  <div class="main container">
+    <div class="page-content">
+      <div class="account-login">
+        <div class="box-authentication">
+          <%= form_for User.new do |f| %>
+          <%= f.label :full_name %>
+          <%= f.text_field :full_name %>
+
+          <%= f.label :email %>
+          <%= f.email_field :email %>
+
+          <%= f.label :address %>
+          <%= f.email_field :address %>
+
+          <%= f.label :password %>
+          <%= f.password_field :password %>
+
+          <%= f.label :password_confirmation,  ( t ".confirm") %>
+          <%= f.password_field :password_confirmation %>
+
+          <%= f.submit  t (".create_button"), class: "btn btn-primary" %>
+          <% end %>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
