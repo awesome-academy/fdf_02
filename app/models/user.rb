@@ -7,7 +7,6 @@ class User < ApplicationRecord
 
   validates :full_name, presence: true,
     length: {maximum: Settings.models.user.max_length_name}
-  validates :address, presence: true
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true,
     length: {maximum: Settings.models.user.max_length_email},
@@ -15,6 +14,6 @@ class User < ApplicationRecord
     uniqueness: {case_sensitive: false}
   validates :password, presence: true,
     length: {minimum: Settings.models.user.min_length_pass}, allow_nil: true
-
+  validates :address, presence: true
   enum role: {user: 0, admin: 1}
 end
