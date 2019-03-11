@@ -36,6 +36,7 @@ en:
   cart: Cart
   sign_up : Sign Up
   contact : Contact
+  welcome: Welcome to the Foods and Drinks
   layouts:
     header:
       desc: Order Foods And Drinks
