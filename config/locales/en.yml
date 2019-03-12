@@ -30,12 +30,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  invalid: Invalid email/password combination
   base_title: Foods & Drink
   home: Home
   log_in: Log In
   cart: Cart
   sign_up : Sign Up
   contact : Contact
+  welcome: Welcome to the Foods and Drinks
+  profile: Profile
+  log_out: Log Out
   layouts:
     header:
       desc: Order Foods And Drinks
@@ -55,3 +59,12 @@ en:
       confirm: Confirmation
       title: Sign Up
       create_button: Create my account
+  sessions:
+    new:
+      title: Log in
+      sign_up: Sign up now!
+      new_user: New user?
+      remember_me: Remember me
+  shared:
+    error_messages:
+      form_contains: The form contains
