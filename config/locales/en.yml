@@ -31,11 +31,13 @@
 
 en:
   base_title: Foods & Drink
+  please_login: Plesase Login !!!
   home: Home
   log_in: Log In
   cart: Cart
   sign_up : Sign Up
   contact : Contact
+  welcome: Welcome to the Foods and Drinks
   layouts:
     header:
       desc: Order Foods And Drinks
@@ -55,3 +57,6 @@ en:
       confirm: Confirmation
       title: Sign Up
       create_button: Create my account
+  shared:
+    error_messages:
+      form_contain: The form contains

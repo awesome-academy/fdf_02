@@ -15,6 +15,7 @@ class User < ApplicationRecord
     uniqueness: {case_sensitive: false}
   validates :password, presence: true,
     length: {minimum: Settings.models.user.min_length_pass}, allow_nil: true
+  validates :address, presence: true
 
   enum role: {user: 0, admin: 1}
 end
