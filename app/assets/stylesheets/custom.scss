@@ -38,7 +38,6 @@ img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;
 .imgr{float:right; margin:0 0 15px 15px; clear:right;}
 
 /*----------------------------------------------HTML 5 Overrides-------------------------------------*/
-
 address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
 
 q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
@@ -46,7 +45,6 @@ q:before{content:'“ '; font-size:26px;}
 q:after{content:' „'; font-size:26px; line-height:0;}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
-
 div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 
 .row1, .row1 a{color:#C0BAB6; background-color:#333333;}
@@ -55,7 +53,6 @@ div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 .row3, .row3 a{color:#919191; background-color:#232323;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
-
 #header, #container, #footer{display:block; width:960px; margin:0 auto;}
 
 nav ul{margin:0; padding:0; list-style:none;}
@@ -83,7 +80,6 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 .lastbox{margin-right:0;}
 
 /*----------------------------------------------Header-------------------------------------*/
-
 #header{padding:20px 0;}
 
 #header #hgroup{float:left; margin:0 0 20px 0;}
@@ -99,14 +95,12 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #header nav li a:hover{color:#FF9900; background-color:#232323;}
 
 /*----------------------------------------------Content Area-------------------------------------*/
-
 #container{padding:30px 0;}
 #container section{display:block; margin-bottom:30px; padding:0;}
 #container .last{margin:0;}
 #container .more{text-align:right;}
 
 /* ------Slider-----*/
-
 #container #slider{width:100%;}
 #container #slider figure{}
 #container #slider figure img{float:right; width:630px; height:300px;}
@@ -116,7 +110,6 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 #container #slider figure footer{}
 
 /* ------Main Content-----*/
-
 #container #intro{width:100%; margin-bottom:60px; padding-bottom:20px; border-bottom:1px solid #D6D6D6;}
 #container #intro section{width:100%;}
 #container #intro section article{}
@@ -135,12 +128,10 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
 
 /*----------------------------------------------Footer-------------------------------------*/
-
 #footer{padding:20px 0;}
 #footer p{margin:0; padding:0;}
 
 /*----------------------------------------------Form-------------------------------------*/
-
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
@@ -153,7 +144,6 @@ input {
 }
 
 /*--------------------------------------------Error Form----------------------------------*/
-
 #error_explanation {
   color: red;
   ul {
